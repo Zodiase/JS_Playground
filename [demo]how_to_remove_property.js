@@ -26,4 +26,7 @@ console.log('delete property');
 foo.delete();
 
 console.info('should print "undefined" since property is deleted');
-foo.test(); 
+foo.test();
+
+console.log('deleting a non-existing property doesn\'t raise an error');
+foo.delete();
